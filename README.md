@@ -68,6 +68,18 @@ python scripts/play.py
 - Other runs/model iteration can be selected by setting `load_run` and `checkpoint` in the train config.
 - Use `u` and `j` to command the forward velocity, `h` and `k` to switch between the extracted skills.
 
+## Citation
+```
+@inproceedings{li2023versatile,
+  title={Versatile skill control via self-supervised adversarial imitation of unlabeled mixed motions},
+  author={Li, Chenhao and Blaes, Sebastian and Kolev, Pavel and Vlastelica, Marin and Frey, Jonas and Martius, Georg},
+  booktitle={2023 IEEE international conference on robotics and automation (ICRA)},
+  pages={2944--2950},
+  year={2023},
+  organization={IEEE}
+}
+```
+
 ## References
 
 The code is built upon the open-sourced [Isaac Gym Environments for Legged Robots](https://github.com/leggedrobotics/legged_gym) and the [PPO implementation](https://github.com/leggedrobotics/rsl_rl). We refer to the original repositories for more details.
