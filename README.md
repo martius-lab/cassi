@@ -38,7 +38,7 @@ This repository provides the [Cooperative Adversarial Self-supervised Skill Imit
 
 4. Install `solo_gym`
 
-        git clone https://github.com/breadli428/solo_gym.git
+        git clone https://github.com/martius-lab/cassi.git
         cd solo_gym
         pip install -e .
 
